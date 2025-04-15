@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer components {
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+}

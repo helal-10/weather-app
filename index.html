@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weathr App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="/src/css/output.css" />
+    <link rel="stylesheet" href="/src/css/main.css" />
+  </head>
+  <body>
+    <div id="main-container" class="relative w-lvw h-lvh px-10 pt-2">
+      <header
+        class="p-0 m-0 px-4 w-[100%] h-[50px] mx-auto rounded-3xl flex-between glassmorphism fixed top-4 left-0"
+      >
+        <div id="logo" class="h-[50px]">
+          <p class="leading-[50px] text-2xl font-semibold">Weathering</p>
+        </div>
+        <div id="burger-menu" class="sm:hidden">
+          <i class="fa-solid fa-bars text-3xl"></i>
+        </div>
+        <div id="ul-hero" class="relative">
+          <ul class="sm:flex sm:justify-end sm:items-center">
+            <a href="#home"
+              ><li class="font-normal opacity-0 sm:opacity-100 sm:ml-2">
+                Home
+              </li></a
+            >
+            <a href="#about"
+              ><li
+                class="mt-4 sm:m-0 font-normal opacity-0 sm:opacity-100 sm:ml-4 sm:duration-300"
+              >
+                About
+              </li></a
+            >
+            <a href="#contact"
+              ><li
+                class="mt-4 sm:m-0 font-normal opacity-0 sm:opacity-100 sm:ml-4"
+              >
+                Contact
+              </li></a
+            >
+            <li
+              class="mt-8 sm:m-0 sm:ml-8 sm:px-6 sm:py-2 opacity-100 sm:opacity-100 bg-white text-blue-950 font-bold rounded-2xl py-1c duration-300 sm:cursor-pointer sm:hover:bg-transparent sm:hover:text-white"
+            >
+              Login
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div
+        id="section-text"
+        class="mt-[200px] relative -left-[60px] duration-1000 delay-500 opacity-0 sm:text-center"
+      >
+        <p
+          class="text-4xl font-serif tracking-widest text-white font-bold sm:text-7xl sm:mt-[300px]"
+        >
+          Weathering
+        </p>
+        <p class="text-gray-400 m-0 p-0 mt-3 ml-2 sm:text-2xl">
+          Your daily weather companion
+        </p>
+      </div>
+      <div
+        id="login-main-mutton"
+        class="w-[50%] mt-[150px] h-fit mx-auto relative -bottom-[60px] duration-1000 delay-500 opacity-0"
+      >
+        <p
+          class="text-center text-3xl m-0 p-3 leading-[40px] glassmorphism sm:hover:bg-transparent sm:duration-200"
+        >
+          Login
+        </p>
+      </div>
+      <div
+        id="about"
+        class="glassmorphism mt-60 text-center duration-500 disappeared"
+      >
+        <div id="about-text">
+          <p class="-mt-4 text-4xl">About Us</p>
+          <p class="text-gray-900 mt-5">
+            We provide accurate, real-time weather updates to help you plan your
+            day with confidence. Whether it's sunshine or storms, our app keeps
+            you one step ahead of the weather. Built for simplicity and speed,
+            Weatherly is designed to deliver the forecast you need—without the
+            clutter.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/src/js/main.js"></script>
+  </body>
+</html>
